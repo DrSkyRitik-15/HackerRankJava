@@ -1,14 +1,13 @@
-import java.util.*;
-import java.io.*;
+import java.util.Scanner;
 
 class Solution{
     public static void main(String []arg){
-        Scanner in = new Scanner(System.in);
-        int t=in.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int t=sc.nextInt();
         for(int i=0;i<t;i++){
-            int a = in.nextInt();
-            int b = in.nextInt();
-            int n = in.nextInt();
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int n = sc.nextInt();
             
                   int sum = a; 
         for (int x = 0; x < n; x++) {
@@ -17,6 +16,7 @@ class Solution{
         }
         System.out.println(); 
     }
-    in.close(); 
+    sc.close(); 
         }
+    }
      
