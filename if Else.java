@@ -1,3 +1,4 @@
+/*
 Task
 Given an integer, , perform the following conditional actions:
 
@@ -12,15 +13,9 @@ Input Format
 A single line containing a positive integer, .
 
 Solution============================================
+*/
 
-
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 public class Solution {
 
